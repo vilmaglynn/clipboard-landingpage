@@ -11,6 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles/generalise.css">
   <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width:1100px)">
 
   <title>Clipboard landing page</title>
 
@@ -21,77 +22,79 @@
 </head>
 
 <body>
-
-  <div class="image-top"></div>
+  <div class="bg-main-image"></div>
   <header>
-    <object data="./images/logo.svg" type=""></object>
-    <h1> A history of everything you copy</h1>
 
-    <p> Clipboard allows you to track and organize everything you
-      copy. Instantly access your clipboard on all your devices.</p>
+    <div class="heading">
+      <object class="logo-top" data="./images/logo.svg" type=""> </object>
+      <h1> A history of everything you copy</h1>
 
-    <ul class="download">
-      <li> Download for iOS</li>
-      <li> Download for Mac</li>
-    </ul>
+      <p> Clipboard allows you to track and organize everything you
+        copy. Instantly access your clipboard on all your devices.</p>
 
+      <ul>
+        <li class="rectangle ios"> Download for iOS</li>
+        <li class="rectangle mac"> Download for Mac</li>
+      </ul>
+    </div>
   </header>
+
+
   <main>
-    <section>
+    <section class="keep_track">
 
       <h2>Keep track of your snippets</h2>
-
       <p>
         Clipboard instantly stores any item you copy in the cloud,
         meaning you can access your snippets immediately on all your
         devices. Our Mac and iOS apps will help you organize everything.
       </p>
-
+      <img class="image-computer" src="./images/image-computer.png" alt="">
       <ul>
         <li>
           <h3>Quick Search</h3>
-
           <p>Easily search your snippets by content, category, web address, application, and more.</p>
         </li>
         <li>
           <h3> iCloud Sync</h3>
-
           <p> Instantly saves and syncs snippets across all your devices.</p>
         </li>
         <li>
           <h3>Complete History</h3>
-
           <p> Retrieve any snippets from the first moment you started using the app.</p>
         </li>
       </ul>
-
     </section>
 
-    <section>
+    <section class="access-clipboard">
       <h2> Access Clipboard anywhere</h2>
-
       <p>
         Whether you’re on the go, or at your computer, you can access all your Clipboard
         snippets in a few simple clicks.
       </p>
+      <img class="images-devices" src="./images/image-devices.png" alt="">
+    </section>
+
+    <section class="supercharge-workflow">
+      <h2>Supercharge your workflow</h2>
+
+      <p> We’ve got the tools to boost your productivity.</p>
 
       <ul>
         <li>
-          <h3>Supercharge your workflow</h3>
-
-          <p> We’ve got the tools to boost your productivity.</p>
-        </li>
-        <li>
+          <object data="./images/icon-blacklist.svg" type=""></object>
           <h3>Create blacklists</h3>
 
           <p> Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </li>
         <li>
+          <object data="./images/icon-text.svg" type=""></object>
           <h3>Plain text snippets</h3>
 
           <p> Remove unwanted formatting from copied text for a consistent look.</p>
         </li>
         <li>
+          <object data="./images/icon-preview.svg" type=""></object>
           <h3> Sneak preview</h3>
 
           <p> Quick preview of all snippets on your Clipboard for easy access.</p>
@@ -100,29 +103,55 @@
 
     </section>
 
-    <section>
+    <section class="logo-brands">
+      <ul>
+        <li> <img src="./images/logo-google.png" alt=""></li>
+        <li> <img src="./images/logo-ibm.png" alt=""></li>
+        <li> <img src="./images/logo-microsoft.png" alt=""></li>
+        <li> <img src="./images/logo-hp.png" alt=""></li>
+        <li> <img src="./images/logo-vector-graphics.png" alt=""></li>
+      </ul>
+    </section>
+
+    <section class="clipboard">
       <h2>Clipboard for iOS and Mac OS</h2>
 
       <p>
         Available for free on the App Store. Download for Mac or iOS, sync with iCloud
         and you’re ready to start adding to your clipboard.
       </p>
-      <ul class="download">
 
-        <li>Download for iOS</li>
-        <li> Download for Mac</li>
-      </ul>
+
+      <div class="rectangle ios">Download for iOS</div>
+      <div class="rectangle mac"> Download for Mac</div>
+
     </section>
   </main>
   <footer>
-    <object data="./images/logo.svg" type=""></object>
-    <ul>
-      <li> FAQs</li>
-      <li> Contact Us</li>
-      <li> Privacy Policy</li>
-      <li> Press Kit</li>
-      <li> Install Guide</li>
-    </ul>
+    <div class="footer-div">
+      <svg class="logo-footer" width="125" height="125" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+          <circle cx="62.5" cy="62.5" r="57.5" />
+          <path d="
+          M85.481 85.481
+          c-12.692 12.692-33.27 12.692-45.962 0
+          s-12.692-33.27 0-45.962 33.27-12.692 45.962 0" stroke-linecap="round" />
+        </g>
+      </svg>
+      <ul>
+        <li> FAQs</li>
+        <li> Contact Us</li>
+        <li> Privacy Policy</li>
+        <li> Press Kit</li>
+        <li> Install Guide</li>
+      </ul>
+      <div class="social">
+        <img src="./images/icon-facebook.svg" alt="">
+        <img src="./images/icon-twitter.svg" alt="">
+        <img src="./images/icon-instagram.svg" alt="">
+
+      </div>
+    </div>
   </footer>
 </body>
 

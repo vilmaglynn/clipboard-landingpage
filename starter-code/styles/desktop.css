@@ -1,0 +1,29 @@
+.bg-main-image {
+  background-image: url("/starter-code/images/bg-header-desktop.png");
+  width: 1439px;
+  height: 363px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.rectangle {
+  width: 227px;
+  height: 56px;
+}
+
+.heading > ul {
+  display: flex;
+  max-width: 470px;
+  margin: auto;
+}
+
+main {
+  max-width: 730px;
+  margin: auto;
+}
+
+header {
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+}
