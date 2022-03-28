@@ -6,13 +6,15 @@ body {
   line-height: 26px;
   font-weight: 400;
   letter-spacing: 0.12px;
+  max-width: 311px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bg-main-image {
   background-image: url("/starter-code/images/bg-header-mobile.png");
   width: 375px;
   height: 363px;
-  margin: auto;
   background-repeat: no-repeat;
 }
 
@@ -45,9 +47,6 @@ h3 {
 
 header {
   margin-bottom: 160px;
-  max-width: 311px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .rectangle {
@@ -77,11 +76,6 @@ header {
   margin-bottom: 186px;
 }
 
-main {
-  max-width: 311px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .image-computer {
   width: 312px;
   height: 238px;
@@ -115,24 +109,25 @@ main {
 footer {
   background-color: #f6f7f7;
   padding: 51px 108px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 375px;
+  height: 500px;
 }
 
-footer > footer-div {
+footer + div {
   width: 160px;
   height: 397px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  text-align: center;
-  border: 1px solid;
+}
+
+footer li {
+  margin-bottom: 20px;
 }
 
 .social {
-  width: 100%;
   display: flex;
   justify-content: space-between;
+  width: 160px;
 }
