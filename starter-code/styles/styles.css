@@ -90,11 +90,17 @@ header {
   height: 182px;
 }
 
-.supercharge-workflow {
-  margin-bottom: 130px;
+.supercharge-workflow-header {
+  margin-bottom: 150px;
 }
 
-.supercharge-workflow > ul > li {
+.supercharge-workflow-list {
+  max-width: 311px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supercharge-workflow-list > ul > li {
   margin-bottom: 56px;
 }
 
@@ -104,12 +110,17 @@ header {
 
 .logo-brands {
   margin-bottom: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clipboard-header {
+  margin-bottom: 48px;
 }
 
 .clipboard {
-  margin-bottom: 170px;
+  margin-bottom: 150px;
 }
-
 footer {
   background-color: #f6f7f7;
   padding: 51px 108px;
