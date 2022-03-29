@@ -143,8 +143,16 @@ footer li {
   margin-bottom: 20px;
 }
 
-.social {
+.social ul {
   display: flex;
   justify-content: space-between;
   width: 160px;
+}
+
+footer li:hover {
+  cursor: pointer;
+}
+
+.download li:hover {
+  cursor: pointer;
 }
