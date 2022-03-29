@@ -1,4 +1,4 @@
-body {
+.wrapper {
   max-width: 730px;
   margin-left: auto;
   margin-right: auto;
@@ -8,7 +8,8 @@ body {
   background-image: url("/starter-code/images/bg-header-desktop.png");
   width: 1439px;
   height: 363px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
 }
 
@@ -29,9 +30,19 @@ header {
   margin-right: auto;
 }
 
-.keep_track div {
+.keep_track div:nth-child(1) {
+  margin-bottom: 80px;
+}
+
+.keep_track div:nth-child(2) {
   display: flex;
   margin-right: auto;
+  width: 1212px;
+  height: 572px;
+}
+.keeptrack_list {
+  width: 350px;
+  height: 406px;
 }
 
 .image-computer {

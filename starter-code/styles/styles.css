@@ -6,15 +6,18 @@ body {
   line-height: 26px;
   font-weight: 400;
   letter-spacing: 0.12px;
+}
+.wrapper {
   max-width: 311px;
   margin-left: auto;
   margin-right: auto;
 }
-
 .bg-main-image {
   background-image: url("/starter-code/images/bg-header-mobile.png");
   width: 375px;
   height: 363px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
 }
 
@@ -79,6 +82,7 @@ header {
 .image-computer {
   width: 312px;
   height: 238px;
+  left: -32px;
 }
 
 .images-devices {
@@ -111,6 +115,8 @@ footer {
   padding: 51px 108px;
   width: 375px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer + div {
