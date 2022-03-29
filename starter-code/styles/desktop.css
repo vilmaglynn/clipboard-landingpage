@@ -43,9 +43,10 @@ header {
 
 .keep_track div:nth-child(2) {
   display: flex;
-  margin-right: auto;
+
   width: 1212px;
   height: 572px;
+  margin-left: -32px;
 }
 .keeptrack_list {
   width: 350px;
