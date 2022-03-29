@@ -50,6 +50,10 @@ header {
   height: 572px;
 }
 
+.images-devices {
+  width: 812px;
+  height: 475px;
+}
 .logo-brands > ul {
   display: flex;
   justify-content: space-evenly;
@@ -66,10 +70,24 @@ footer {
 }
 
 footer > div {
-  width: 1440px;
-  height: 150px;
+  height: 72px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  align-content: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer div:nth-child(2) {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 160px;
 }
